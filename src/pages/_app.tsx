@@ -7,7 +7,7 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <AuthContextProvider>
-      <Component {...pageProps} />
+      <Component className="h-full" {...pageProps} />
     </AuthContextProvider>
   )
 }
